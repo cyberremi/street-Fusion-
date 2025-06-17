@@ -74,7 +74,7 @@ document.getElementById("checkout-whatsapp").addEventListener("click", () => {
   const total = cart.reduce((sum, i) => sum + i.price * i.quantity, 0);
   message += `\n*Total: ₦${total.toFixed(2)}*`;
 
-  const phoneNumber = "2349037443047"; // Replace with your WhatsApp number
+  const phoneNumber = "2349012008514"; // Replace with your WhatsApp number
   const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
   window.open(url, "_blank");
 });
